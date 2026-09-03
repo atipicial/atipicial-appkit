@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.169.2",
+  "pnpmVersion": "9.15.9",
+  "repository": {
+    "url": "https://github.com/Atipicial/wallet-connect-adapters",
+    "defaultBranch": "main"
+  },
+  "projects": [
+    {
+      "packageName": "@atipicial/appkit-atipicial-adapter",
+      "projectFolder": "packages/appkit-atipicial-adapter",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@atipicial/appkit-stellar-adapter",
+      "projectFolder": "packages/appkit-stellar-adapter",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@atipicial/appkit-atipicialx-adapter",
+      "projectFolder": "packages/appkit-atipicialx-adapter",
+      "shouldPublish": true
+    }
+  ]
+}
